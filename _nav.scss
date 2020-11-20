@@ -1,0 +1,35 @@
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    margin: auto 30vh;
+
+    li {
+      margin: 5px;
+      margin-right: 30px;
+    }
+  }
+}
+
+.icons i {
+  margin: 20px;
+  color: black;
+}
+
+.Micons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
